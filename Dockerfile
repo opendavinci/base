@@ -160,6 +160,7 @@ RUN apt-get update -y && \
     libxxf86vm1 \
     libzvbi0 \
     libfuse2 \
+    fuse \
     gdbserver && \
     apt-get autoremove && \
     apt-get autoclean && \
